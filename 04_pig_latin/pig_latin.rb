@@ -1,4 +1,3 @@
-require 'pry'
 def translate(string)
   vowels = ["a", "e", "i", "o", "u"]
   words = string.split.map do |word|
